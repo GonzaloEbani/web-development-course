@@ -14,92 +14,140 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="../style.css" />
     <title>SM - Sillones</title>
   </head>
   <body>
-    <header>
-      <h1 class="tituloPrincipal">SM Sillones</h1>
-      <nav class="navSitio">
-        <ul>
-          <li><a class="navButtons" href="../index.html">Portada</a></li>
-          <li><a class="navButtons" href="./productos.html"> Productos </a></li>
-          <li><a class="navButtons" href="./medidas.html"> Medidas </a></li>
-          <li><a class="navButtons" href="./tapizados.html"> Tapizados </a></li>
-          <li><a class="navButtons" href="./consultas.html"> Consultas </a></li>
-        </ul>
-      </nav>
+    <!----------------------------HEADER NAVBAR------------------------->
+    <header class="container-fluid sticky-top">
+      <div class="row">
+        <h1 class="col-5 p-2 col-lg-3 d-block">SM Sillones</h1>
+        <nav
+          class="col-7 col-lg-9 navbar navbar-expand-lg navbar-dark d-flex justify-items-lg-center"
+        >
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="burger navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-lg-flex justify-content-lg-center"
+            id="navbarNav"
+          >
+            <ul
+              class="navbar-nav d-flex justify-content-center align-items-left"
+            >
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Portada</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./medidas.html"
+                  >Medidas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tapizados.html">Tapizados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./consultas.html">Consultas</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </header>
     <main>
-      <section>
+      <section class="container">
         <h2 class="subTitulo">Tabla de Medidas</h2>
-        <table class="tablaMedidas">
-          <thead>
-            <tr>
-              <th>Modelo</th>
-              <th>Largo</th>
-              <th>Ancho</th>
-              <th>Alto</th>
-              <th>Puff</th>
-              <th>Camastro</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="titulo">Clasicx2</td>
-              <td class="largo">160</td>
-              <td class="ancho">80</td>
-              <td class="alto">80</td>
-              <td class="puff">N/A</td>
-              <td class="camastro">N/A</td>
-            </tr>
-            <tr>
-              <td class="titulo">Clasicx3</td>
-              <td class="largo">220</td>
-              <td class="ancho">80</td>
-              <td class="alto">80</td>
-              <td class="puff">N/A</td>
-              <td class="camastro">N/A</td>
-            </tr>
-            <tr>
-              <td class="titulo">ClasicL</td>
-              <td class="largo">220</td>
-              <td class="ancho">80</td>
-              <td class="alto">80</td>
-              <td class="puff">N/A</td>
-              <td class="camastro">160</td>
-            </tr>
-            <tr>
-              <td class="titulo">ClasicPuff</td>
-              <td class="largo">210</td>
-              <td class="ancho">80</td>
-              <td class="alto">80</td>
-              <td class="puff">70x60</td>
-              <td class="camastro">N/A</td>
-            </tr>
-            <tr>
-              <td class="titulo">Retrox2</td>
-              <td class="largo">160</td>
-              <td class="ancho">80</td>
-              <td class="alto">80</td>
-              <td class="puff">N/A</td>
-              <td class="camastro">N/A</td>
-            </tr>
-            <tr>
-              <td class="titulo">Retrox2back</td>
-              <td class="largo">170</td>
-              <td class="ancho">80</td>
-              <td class="alto">80</td>
-              <td class="puff">N/A</td>
-              <td class="camastro">N/A</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-responsive row">
+          <table class="table table-striped col-12 col-lg-10">
+            <thead class="table-dark">
+              <tr>
+                <th>Modelo</th>
+                <th>Largo</th>
+                <th>Ancho</th>
+                <th>Alto</th>
+                <th>Puff</th>
+                <th>Camastro</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="titulo">Clasicx2</td>
+                <td class="largo">160</td>
+                <td class="ancho">80</td>
+                <td class="alto">80</td>
+                <td class="puff">N/A</td>
+                <td class="camastro">N/A</td>
+              </tr>
+              <tr>
+                <td class="titulo">Clasicx3</td>
+                <td class="largo">220</td>
+                <td class="ancho">80</td>
+                <td class="alto">80</td>
+                <td class="puff">N/A</td>
+                <td class="camastro">N/A</td>
+              </tr>
+              <tr>
+                <td class="titulo">ClasicL</td>
+                <td class="largo">220</td>
+                <td class="ancho">80</td>
+                <td class="alto">80</td>
+                <td class="puff">N/A</td>
+                <td class="camastro">160</td>
+              </tr>
+              <tr>
+                <td class="titulo">ClasicPuff</td>
+                <td class="largo">210</td>
+                <td class="ancho">80</td>
+                <td class="alto">80</td>
+                <td class="puff">70x60</td>
+                <td class="camastro">N/A</td>
+              </tr>
+              <tr>
+                <td class="titulo">Retrox2</td>
+                <td class="largo">160</td>
+                <td class="ancho">80</td>
+                <td class="alto">80</td>
+                <td class="puff">N/A</td>
+                <td class="camastro">N/A</td>
+              </tr>
+              <tr>
+                <td class="titulo">Retrox2back</td>
+                <td class="largo">170</td>
+                <td class="ancho">80</td>
+                <td class="alto">80</td>
+                <td class="puff">N/A</td>
+                <td class="camastro">N/A</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </section>
     </main>
-    <footer>
-      <ul>
-        <li>
+    <!--------------------------------FOOTER--------------------------------->
+    <footer class="container-fluid">
+      <ul class="row d-lg-flex flex-lg-column fixed-lg-bottom p-0">
+        <li class="col-3 col-lg-1">
           <a class="icono" href="https://www.facebook.com" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +163,7 @@
             </svg>
           </a>
         </li>
-        <li>
+        <li class="col-3 col-lg-1">
           <a class="icono" href="https://www.instagram.com" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +179,7 @@
             </svg>
           </a>
         </li>
-        <li>
+        <li class="col-3 col-lg-1">
           <a class="icono" href="https://www.Twitter.com" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -147,7 +195,7 @@
             </svg>
           </a>
         </li>
-        <li>
+        <li class="col-3 col-lg-1">
           <a class="icono" href="https://www.whatsapp.com/" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -165,5 +213,15 @@
         </li>
       </ul>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
