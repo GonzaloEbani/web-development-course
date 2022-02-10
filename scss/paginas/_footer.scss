@@ -1,0 +1,32 @@
+footer {
+  margin-top: 5px;
+
+  & li {
+    margin: 10px 0px;
+    list-style: none;
+  }
+}
+
+.icono {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.icono:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.icono svg {
+  height: 32px;
+  width: auto;
+}
+
+@media only screen and (min-width: 992px) {
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+
+  .footerFit {
+    width: fit-content;
+  }
+}

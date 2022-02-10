@@ -1,0 +1,68 @@
+body {
+  font-family: "Mulish", sans-serif;
+  background: linear-gradient(to right, #2c3e50, #bdc3c6);
+  overflow: scroll; }
+
+footer {
+  margin-top: 5px; }
+  footer li {
+    margin: 10px 0px;
+    list-style: none; }
+
+.icono {
+  color: rgba(255, 255, 255, 0.5); }
+
+.icono:hover {
+  color: white; }
+
+.icono svg {
+  height: 32px;
+  width: auto; }
+
+@media only screen and (min-width: 992px) {
+  footer {
+    position: fixed;
+    bottom: 0; }
+  .footerFit {
+    width: fit-content; } }
+
+header {
+  background-color: #3c5e6e48;
+  color: #ffffff;
+  font-family: "Cormorant Garamond", serif; }
+
+.nav-link {
+  color: #ffffff;
+  font-size: 22px; }
+
+.subTituloPortada {
+  display: flex;
+  justify-content: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 200%;
+  text-decoration: underline;
+  font-weight: 300; }
+
+.contenedorImagenesPortada {
+  gap: 20px; }
+  .contenedorImagenesPortada img {
+    max-width: 500px;
+    border-radius: 6px;
+    padding: 0;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.5);
+    transition: transform 0.5s, box-shadow 0.5s; }
+
+p {
+  font-weight: 500;
+  font-size: 15pt;
+  line-height: 1.4; }
+
+@media only screen and (min-width: 992px) {
+  .contenedorImagenesPortada img {
+    transition: transform 0.5s, box-shadow 0.5s; }
+    .contenedorImagenesPortada img:hover {
+      transform: scale(1.1, 1.1);
+      z-index: 100;
+      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4);
+      -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4); } }
