@@ -1,0 +1,19 @@
+.contenedorImagenesProductos {
+  display: flex;
+  justify-content: left;
+
+  & img {
+    @include contenedorImg (230px, 6px, 0px 15px 25px rgba(0, 0, 0, 0.5));
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contenedorImagenesProductos img {
+    transition: all 1s;
+
+    &:hover {
+      transform: scale(1.5, 1.5);
+      @extend %imgEfect;
+    }
+  }
+}

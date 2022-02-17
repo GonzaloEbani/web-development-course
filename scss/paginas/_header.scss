@@ -6,5 +6,5 @@ header {
 
 .nav-link {
   color: #ffffff;
-  font-size: 22px;
+  font-size: map-get($tamanoTexto, navBar);
 }

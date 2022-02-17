@@ -1,0 +1,32 @@
+Agregue descipciones correspondientes a cada html del sitio web.
+
+Agregue keywords en todos los html del sitio.
+
+Asigne un titulo a cada pagina de mi sitio.
+
+Cree el sitemap.xml con todas las direcciones correspondientes.
+
+Index
+Titulo: SM - Sillones / Portada
+Keywords: sillones, ventas, hogar, diseño, amoblamiento, SM, SM-sillones, decoracion, sofa, coderhouse, desarrollo web, portada
+Descripcion: SM Sillones ofrece comodidad y diseño de calidad en una amplia variedad de Sillones para cada sector de tu hogar.
+
+Productos
+Titulo: SM - Sillones / Productos
+Keywords: sillones, ventas, hogar, diseño, amoblamiento, SM, SM-sillones, decoracion, sofa, coderhouse, desarrollo web, productos
+Descripcion: En esta pagina podrás encontrar la variedad de productos que ofrece SM-Sillones al publico.
+
+Medidas
+Titulo: SM - Sillones / Medidas
+Keywords: sillones, ventas, hogar, diseño, amoblamiento, SM, SM-sillones, decoracion, sofa, coderhouse, desarrollo web, medidas
+Descripcion: En esta pagina podrás conocer las medidas de cada producto publicado en nuestra sección productos.
+
+Tapizados
+Titulo: SM - Sillones / Tapizados
+Keywords: sillones, ventas, hogar, diseño, amoblamiento, SM, SM-sillones, decoracion, sofa, coderhouse, desarrollo web, tapizados
+Descripcion: En esta pagina podrás conocer todos los tapizados disponibles para los modelos de sillones publicados en nuestra web.
+
+Consultas
+Titulo: SM - Sillones / Consultas
+Keywords: sillones, ventas, hogar, diseño, amoblamiento, SM, SM-sillones, decoracion, sofa, coderhouse, desarrollo web, consultas
+Descripcion: En esta pagina podrás realizar consultas a nuestros empleados sobre cualquier duda acerca de nuestros productos.

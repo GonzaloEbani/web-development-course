@@ -1,0 +1,26 @@
+$tamanoTexto: (
+  parrafos: 15pt,
+  subTitulo: 200%,
+  subTituloH3: 150%,
+  navBar: 22px,
+);
+
+/* incluí el extend en la mediaquery donde lo utilizo por que SASS
+de lo contrario no lo compila */
+@media only screen and (min-width: 992px) {
+  %imgEfect {
+    z-index: 100;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4);
+  }
+}
+
+@mixin contenedorImg($mw, $br, $bs) {
+  width: 100%;
+  max-width: $mw;
+  margin-bottom: 5px;
+  border-radius: $br;
+  padding: 0;
+  box-shadow: $bs;
+}

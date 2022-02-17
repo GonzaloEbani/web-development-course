@@ -1,5 +1,32 @@
 body {
-    font-family: "Mulish", sans-serif;
-    background: linear-gradient(to right, #2c3e50, #bdc3c6);
-    overflow: scroll;
-  }
+  font-family: "Mulish", sans-serif;
+  background: linear-gradient(to right, #43576b, #bdc3c6);
+  overflow: scroll;
+}
+
+p {
+  font-weight: 600;
+  font-size: map-get($tamanoTexto, parrafos);
+  line-height: 1.4;
+}
+
+.subTitulo {
+  display: flex;
+  justify-content: left;
+  font-family: "Cormorant Garamond", serif;
+  font-size: map-get($tamanoTexto, subTitulo);
+  text-decoration: underline;
+  font-weight: 300;
+  margin-bottom: 1%;
+}
+
+.tituloH3 {
+  display: flex;
+  justify-content: left;
+  font-family: "Cormorant Garamond", serif;
+  font-size: map-get($tamanoTexto, subTituloH3);
+  text-decoration: underline;
+  font-weight: 600;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
