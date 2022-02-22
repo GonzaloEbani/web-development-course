@@ -34,14 +34,19 @@ p {
   font-size: 150%;
   text-decoration: underline;
   font-weight: 600;
-  margin-bottom: 1%;
-  margin-top: 1%; }
+  margin-bottom: 2%;
+  margin-top: 2.5%; }
 
 footer {
   margin-top: 5px; }
   footer li {
     margin: 10px 0px;
     list-style: none; }
+
+.footerli {
+  width: 25%;
+  display: flex;
+  justify-content: center; }
 
 .icono {
   color: rgba(255, 255, 255, 0.5); }
@@ -75,7 +80,9 @@ header {
   font-family: "Cormorant Garamond", serif;
   font-size: 200%;
   text-decoration: underline;
-  font-weight: 300; }
+  font-weight: 300;
+  margin-bottom: 1.5%;
+  margin-top: 1%; }
 
 .contenedorImagenesPortada {
   gap: 20px; }
@@ -108,7 +115,7 @@ header {
   .contenedorImagenesProductos img {
     transition: all 1s; }
     .contenedorImagenesProductos img:hover {
-      transform: scale(1.5, 1.5); } }
+      transform: scale(1.25, 1.25); } }
 
 .contenedorImagenesTapizados {
   display: flex;
@@ -126,3 +133,12 @@ header {
     transition: all 1s; }
     .contenedorImagenesTapizados img:hover {
       transform: scale(1.5, 1.5); } }
+
+.enviarForm {
+  border-color: #778186;
+  background-color: #43576b;
+  display: flex;
+  justify-content: center; }
+  .enviarForm:hover {
+    background-color: #778186;
+    border-color: #43576b; }

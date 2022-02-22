@@ -1,0 +1,11 @@
+.enviarForm{
+    border-color: #778186;
+    background-color: #43576b;
+    display: flex;
+    justify-content: center;
+
+    &:hover{
+        background-color: #778186;
+        border-color: #43576b;
+    }
+}
