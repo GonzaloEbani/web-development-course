@@ -7,7 +7,7 @@ footer {
   }
 }
 
-.footerli{
+.footerli {
   width: 25%;
   display: flex;
   justify-content: center;
@@ -24,6 +24,11 @@ footer {
 .icono svg {
   height: 32px;
   width: auto;
+}
+
+.footerMedidas {
+  position: absolute;
+  bottom: 0;
 }
 
 @media only screen and (min-width: 992px) {

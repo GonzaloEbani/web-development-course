@@ -2,6 +2,8 @@ body {
   font-family: "Mulish", sans-serif;
   background: linear-gradient(to right, #43576b, #bdc3c6);
   overflow: scroll;
+  position: relative;
+  min-height: 100vh;
 }
 
 p {

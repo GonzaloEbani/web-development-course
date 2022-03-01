@@ -13,7 +13,7 @@
   gap: 20px;
 
   & img {
-    @include contenedorImg (500px, 7px, 0px 20px 35px rgba(0, 0, 0, 0.5));
+    @include contenedorImg(500px, 7px, 0px 20px 35px rgba(0, 0, 0, 0.5));
   }
 }
 
@@ -25,5 +25,14 @@
       transform: scale(1.1, 1.1);
       @extend %imgEfect;
     }
+  }
+}
+
+.tituloPortada {
+  text-decoration: none;
+  color: #ffffff;
+
+  & :hover {
+    color: #ffffff70;
   }
 }

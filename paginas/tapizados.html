@@ -33,10 +33,12 @@
     <title>SM Sillones | Tapizados</title>
   </head>
   <body>
-    <!----------------------------HEADER NAVBAR------------------------->
-    <header class="container-fluid sticky-top">
-      <div class="row">
-        <h1 class="col-5 p-2 col-lg-3 d-block">SM Sillones</h1>
+    <!-----------------------------HEADER-NAVBAR----------------------------->
+    <header class="container-fluid">
+      <div class="row tituloPortada">
+        <a class="col-5 p-2 col-lg-3 d-block tituloPortada" href="../index.html"
+          ><h1 class="m-0">SM Sillones</h1>
+        </a>
         <nav
           class="col-7 col-lg-9 navbar navbar-expand-lg navbar-dark d-flex justify-items-lg-center"
         >
@@ -84,48 +86,53 @@
         </nav>
       </div>
     </header>
+    <!---------------------------------MAIN---------------------------------->
     <main class="container">
       <h2 class="subTitulo">Tapizados</h2>
 
-      <h3 class="tituloH3">Pana Velour</h3>
+      <div class="row">
+        <h3 class="tituloH3">Pana Velour</h3>
 
-      <div class="contenedorImagenesTapizados">
-        <img src="../imagenes/telas1.jpg" alt="Muesta Tela PanaVelour" />
-      </div>
+        <div class="contenedorImagenesTapizados col-lg-6 mb-2 p-0">
+          <img src="../imagenes/telas1.jpg" alt="Muesta Tela PanaVelour" />
+        </div>
 
-      <h3 class="tituloH3">Lino Tokio</h3>
+        <h3 class="tituloH3">Lino Tokio</h3>
 
-      <div class="contenedorImagenesTapizados">
-        <img src="../imagenes/telas2.jpg" alt="Muesta Tela LinoTokio" />
-      </div>
+        <div class="contenedorImagenesTapizados col-lg-6 mb-2 p-0">
+          <img src="../imagenes/telas2.jpg" alt="Muesta Tela LinoTokio" />
+        </div>
 
-      <h3 class="tituloH3">Zinc</h3>
+        <h3 class="tituloH3">Zinc</h3>
 
-      <div class="contenedorImagenesTapizados">
-        <img src="../imagenes/telas3.jpg" alt="Muesta Tela Zinc" />
-      </div>
+        <div class="contenedorImagenesTapizados col-lg-6 mb-2 p-0">
+          <img src="../imagenes/telas3.jpg" alt="Muesta Tela Zinc" />
+        </div>
 
-      <h3 class="tituloH3">Lino Dubai</h3>
+        <h3 class="tituloH3">Lino Dubai</h3>
 
-      <div class="contenedorImagenesTapizados">
-        <img src="../imagenes/telas4.jpg" alt="Muesta Tela LinoDubai" />
-      </div>
+        <div class="contenedorImagenesTapizados col-lg-6 mb-2 p-0">
+          <img src="../imagenes/telas4.jpg" alt="Muesta Tela LinoDubai" />
+        </div>
 
-      <h3 class="tituloH3">Focus</h3>
+        <h3 class="tituloH3">Focus</h3>
 
-      <div class="contenedorImagenesTapizados">
-        <img src="../imagenes/telas5.jpg" alt="Muesta Tela Focus" />
-      </div>
+        <div class="contenedorImagenesTapizados col-lg-6 mb-2 p-0">
+          <img src="../imagenes/telas5.jpg" alt="Muesta Tela Focus" />
+        </div>
 
-      <h3 class="tituloH3">Velutti</h3>
+        <h3 class="tituloH3">Velutti</h3>
 
-      <div class="contenedorImagenesTapizados">
-        <img src="../imagenes/telas6.jpg" alt="Muesta Tela Velutti" />
+        <div class="contenedorImagenesTapizados col-lg-6 mb-2 p-0">
+          <img src="../imagenes/telas6.jpg" alt="Muesta Tela Velutti" />
+        </div>
       </div>
     </main>
     <!--------------------------------FOOTER--------------------------------->
     <footer class="container-fluid p-lg-0 m-lg-1 footerFit">
-      <ul class="row d-lg-flex flex-lg-column fixed-lg-bottom p-0 m-1">
+      <ul
+        class="row d-lg-flex flex-lg-column align-content-lg-center fixed-lg-bottom p-0 m-1"
+      >
         <li class="col-3 col-lg-1 p-0 footerli">
           <a class="icono" href="https://www.facebook.com" target="_blank">
             <svg
@@ -192,6 +199,7 @@
         </li>
       </ul>
     </footer>
+    <!--------------------------------SCRIPTS--------------------------------->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

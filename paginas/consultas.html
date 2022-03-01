@@ -33,10 +33,12 @@
     <title>SM Sillones | Consultas</title>
   </head>
   <body>
-    <!----------------------------HEADER NAVBAR------------------------->
-    <header class="container-fluid sticky-top">
-      <div class="row">
-        <h1 class="col-5 p-2 col-lg-3 d-block">SM Sillones</h1>
+    <!-----------------------------HEADER-NAVBAR----------------------------->
+    <header class="container-fluid">
+      <div class="row tituloPortada">
+        <a class="col-5 p-2 col-lg-3 d-block tituloPortada" href="../index.html"
+          ><h1 class="m-0">SM Sillones</h1>
+        </a>
         <nav
           class="col-7 col-lg-9 navbar navbar-expand-lg navbar-dark d-flex justify-items-lg-center"
         >
@@ -84,9 +86,10 @@
         </nav>
       </div>
     </header>
+    <!---------------------------------MAIN---------------------------------->
     <main class="container">
       <h2 class="subTitulo row">Consultas</h2>
-      <form class="formularioConsultas">
+      <form class="formularioConsultas mx-2">
         <div class="row">
           <label class="form-label" for="nombre">Nombre:</label>
           <input
@@ -135,14 +138,20 @@
             placeholder="Dejanos tu Consulta"
           ></textarea>
         </div>
-        <div class="row mt-3 d-flex justify-content-center justify-content-lg-end">
-          <button type="submit" class="btn btn-primary col-2 enviarForm">Enviar</button>
+        <div
+          class="row mt-3 d-flex justify-content-center justify-content-lg-end"
+        >
+          <button type="submit" class="btn btn-primary col-2 enviarForm w-25">
+            Enviar
+          </button>
         </div>
       </form>
     </main>
     <!--------------------------------FOOTER--------------------------------->
     <footer class="container-fluid p-lg-0 m-lg-1 footerFit">
-      <ul class="row d-lg-flex flex-lg-column fixed-lg-bottom p-0 m-1">
+      <ul
+        class="row d-lg-flex flex-lg-column align-content-lg-center fixed-lg-bottom p-0 m-1"
+      >
         <li class="col-3 col-lg-1 p-0 footerli">
           <a class="icono" href="https://www.facebook.com" target="_blank">
             <svg
@@ -209,6 +218,7 @@
         </li>
       </ul>
     </footer>
+    <!--------------------------------SCRIPTS--------------------------------->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"

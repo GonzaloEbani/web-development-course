@@ -11,7 +11,9 @@ de lo contrario no lo compila */
 body {
   font-family: "Mulish", sans-serif;
   background: linear-gradient(to right, #43576b, #bdc3c6);
-  overflow: scroll; }
+  overflow: scroll;
+  position: relative;
+  min-height: 100vh; }
 
 p {
   font-weight: 600;
@@ -37,6 +39,15 @@ p {
   margin-bottom: 2%;
   margin-top: 2.5%; }
 
+header {
+  background-color: #3c5e6e48;
+  color: #ffffff;
+  font-family: "Cormorant Garamond", serif; }
+
+.nav-link {
+  color: #ffffff;
+  font-size: 22px; }
+
 footer {
   margin-top: 5px; }
   footer li {
@@ -58,21 +69,16 @@ footer {
   height: 32px;
   width: auto; }
 
+.footerMedidas {
+  position: absolute;
+  bottom: 0; }
+
 @media only screen and (min-width: 992px) {
   footer {
     position: fixed;
     bottom: 0; }
   .footerFit {
     width: fit-content; } }
-
-header {
-  background-color: #3c5e6e48;
-  color: #ffffff;
-  font-family: "Cormorant Garamond", serif; }
-
-.nav-link {
-  color: #ffffff;
-  font-size: 22px; }
 
 .subTituloPortada {
   display: flex;
@@ -100,6 +106,12 @@ header {
     .contenedorImagenesPortada img:hover {
       transform: scale(1.1, 1.1); } }
 
+.tituloPortada {
+  text-decoration: none;
+  color: #ffffff; }
+  .tituloPortada :hover {
+    color: #ffffff70; }
+
 .contenedorImagenesProductos {
   display: flex;
   justify-content: left; }
@@ -119,7 +131,7 @@ header {
 
 .contenedorImagenesTapizados {
   display: flex;
-  justify-content: left; }
+  justify-content: center; }
   .contenedorImagenesTapizados img {
     width: 100%;
     max-width: 417px;
@@ -132,7 +144,9 @@ header {
   .contenedorImagenesTapizados img {
     transition: all 1s; }
     .contenedorImagenesTapizados img:hover {
-      transform: scale(1.5, 1.5); } }
+      transform: scale(1.5, 1.5); }
+  .tituloH3 {
+    display: none; } }
 
 .enviarForm {
   border-color: #778186;
@@ -142,3 +156,5 @@ header {
   .enviarForm:hover {
     background-color: #778186;
     border-color: #43576b; }
+
+/* PARTIAL MEDIDAS: Partial creado por futuras modificaciones / no requerido en esta version */
