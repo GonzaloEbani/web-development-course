@@ -145,7 +145,7 @@ footer {
     transition: all 1s; }
     .contenedorImagenesTapizados img:hover {
       transform: scale(1.5, 1.5); }
-  .tituloH3 {
+  .tituloH3Tapizados {
     display: none; } }
 
 .enviarForm {
